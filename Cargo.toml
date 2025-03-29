@@ -1,0 +1,22 @@
+[package]
+name = "teloxide-telegram-bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# chrono = "0.4.40"
+# teloxide = { version = "0.13", features = ["macros"] }
+# log = "0.4"
+# pretty_env_logger = "0.5"
+# tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+# rand = "0.9.0"
+
+teloxide = { version = "0.14.0", features = ["macros"] }
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+log = "0.4.27"
+pretty_env_logger = "0.5.0"
+tokio = { version =  "1.44.1", features = ["rt-multi-thread", "macros"] }
+rand = "0.9.0"
+chrono = "0.4.40"
+chrono-tz = "0.10.3"
